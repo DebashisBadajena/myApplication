@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Morning Tea</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="news">News</string>
+
+    <string name="sports">Sports</string>
+    <string name="business">Business</string>
+    <string name="tech">Tech</string>
+
+    <string name="education">education</string>
+    <string name="morning_tea">Morning Tea</string>
+    <string name="entertainment">entertainment</string>
+    <string name="hello_world">hello world</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="odia">ODIA</string>
+
+    <string name="tollywood">Tollywood</string>
+    <string name="bollywood">Bollywood</string>
+    <string name="hollywood">Hollywood</string>
+    <string name="cricket">Cricket</string>
+    <string name="about_app">About app</string>
+    <string name="newspaper">News Paper</string>
+    <string name="bollytolly">Bollywood and Tollywood</string>
+    <string name="about">About App</string>
+
+
+</resources>

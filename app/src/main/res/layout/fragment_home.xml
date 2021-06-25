@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/odia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/odia"
+                android:textColor="#111111"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollViewOdia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewOdia"
+                android:layout_width="394dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/english"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/odia">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:background="#AB5DB2F3">
+
+                    <ImageView
+                        android:id="@+id/sambad"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@drawable/sambad"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.509"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/samaj"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/samaja"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/sambad"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/dharitri"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/dharitri"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/samaj"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/pragatibadi"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/pragativadi"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/dharitri"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/samaya"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/odishasamaya"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/pragatibadi"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/prameya"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/prameyanews"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/samaya"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/bhaskar"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/odishabhaskar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/prameya"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/dinalipi"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/dinalipi"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/bhaskar"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/anupambharat"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/anupambharat"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/dinalipi"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/odiapuo"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/odiapua"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/anupambharat"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/odishatv"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/odishatv"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/odiapuo"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="8dp"
+                android:text="ENGLISH"
+                android:textColor="#111111"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollViewEnglish"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.055"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollViewOdia" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewEnglish"
+                android:layout_width="394dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/hindi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/english">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:background="#AB5DB2F3">
+
+                    <ImageView
+                        android:id="@+id/timesofindiatollywood"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@drawable/timesofindia"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.509"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/hindu"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/hindu"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/timesofindiatollywood"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/hindustantime"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/hindustantimes"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/hindu"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/tollywoodnet"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/indianexpress"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/hindustantime"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/pioneer"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/pioneer"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/tollywoodnet"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/deccanherald"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/deccanherald"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/pioneer"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/teligraph"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/telegraphindia"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/deccanherald"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/dna"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/dna"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/teligraph"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/asianAge"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/asianage"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/dna"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/economicTimes"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/economictimes"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/asianAge"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/BusinessStandard"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/businessstandard"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/economicTimes"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/financialExpress"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/financialexpress"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/BusinessStandard"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="8dp"
+                android:text="HINDI"
+                android:textColor="#111111"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollViewHindi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollViewEnglish" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewHindi"
+                android:layout_width="394dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="13dp"
+                app:layout_constraintBottom_toTopOf="@+id/telugu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hindi">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:background="#AB5DB2F3">
+
+                    <ImageView
+                        android:id="@+id/jagaran"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@drawable/jagran"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.509"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/dainikaBhaskar"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/bhaskar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/jagaran"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/amarUjala"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/amarujala"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/dainikaBhaskar"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/hindustan"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/livehindustan"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/amarUjala"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/navabharat"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/navbharattimes"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/hindustan"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/patrika"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/patrika"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/navabharat"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/janasatta"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/jansatta"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/patrika"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/lokomataSamachara"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/lokmatsamachar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/janasatta"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/prabhataKhabar"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/prabhatkhabar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/lokomataSamachara"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/desabandhu"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/deshbandhu"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/prabhataKhabar"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/telugu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="8dp"
+                android:text="TELUGU"
+                android:textColor="#111111"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollViewTelugu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.054"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollViewHindi" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewTelugu"
+                android:layout_width="394dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="13dp"
+                app:layout_constraintBottom_toTopOf="@+id/bangala"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/telugu">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:background="#AB5DB2F3">
+
+                    <ImageView
+                        android:id="@+id/eenadu"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@drawable/eenadu"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.509"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/andhraJyothi"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/andhrajyothy"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/eenadu"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/sakshitollywood"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/sakshi"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/andhraJyothi"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/andhraBhoomi"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/andhrabhoomi"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/sakshitollywood"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/vaaratha"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/vaartha"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/andhraBhoomi"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/namasteTelangana"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/ntnews"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/vaaratha"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/prajashakti"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/prajasakti"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/namasteTelangana"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/surya"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/suryaa"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/prajashakti"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/teluguNews18"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/telugunews18"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/surya"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+
+                        />
+
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/bangala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="8dp"
+                android:text="BANGALA"
+                android:textColor="#111111"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollViewBangala"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.056"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollViewTelugu" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewBangala"
+                android:layout_width="394dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bangala">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:background="#AB5DB2F3">
+
+                    <ImageView
+                        android:id="@+id/anandbazarPatrika"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@drawable/anandabazar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.509"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/aajkal"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/aajkaal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/anandbazarPatrika"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/bartaman"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/bartamanpatrika"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/aajkal"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/sangbadPratidin"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/sangbadpratidin"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/bartaman"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/ganashakti"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/ganashakti"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/sangbadPratidin"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+                    <ImageView
+                        android:id="@+id/eiSamaya"
+                        android:layout_width="122dp"
+                        android:layout_height="95dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginBottom="22dp"
+                        android:src="@drawable/eisamay"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/ganashakti"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:background="#8D36DF18"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

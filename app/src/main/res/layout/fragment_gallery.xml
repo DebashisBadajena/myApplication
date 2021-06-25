@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B49F92EB">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="190dp"
+        android:layout_height="249dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gradientb"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/bollywood"
+            android:textColor="#FA20378B"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:layout_marginBottom="10dp"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="190dp"
+        android:layout_height="249dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="64dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tollywood"
+            android:textColor="#FA20378B"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/gradientb"
+            android:scaleType="centerCrop"
+            android:layout_gravity="bottom"
+            android:scaleY="-1"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bollywoodlife"
+        android:layout_width="154dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="2dp"
+        app:cardBackgroundColor="#EEECEC"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/filmfare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bollywoodlife"
+           android:scaleType="center"
+            android:scaleX=".78"
+            android:scaleY=".8"
+           />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/filmfare"
+        android:layout_width="154dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="2dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/hungama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bollywoodlife">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/filmfare"
+            android:scaleX=".9"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hungama"
+        android:layout_width="154dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="22dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filmfare">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bhungama"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sakshitollywood"
+        android:layout_width="154dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="3dp"
+        app:cardBackgroundColor="#FACA1C"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/tollywoodnet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sakshi"
+            android:scaleX=".95"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tollywoodnet"
+        android:layout_width="154dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/timesofindiatollywood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sakshitollywood">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tollywood"
+            android:scaleX=".85"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/timesofindiatollywood"
+        android:layout_width="154dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="3dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tollywoodnet">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/timesofindia"
+            android:scaleX=".85"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
